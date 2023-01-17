@@ -7,7 +7,7 @@ function App() {
   const[search, setSearch]=useState('')
 
   useEffect(() => {
-    fetch("http://localhost:8001/transactions")
+    fetch("https://api.npoint.io/b6661f7c23428e93d3e8/transactions/")
       .then((res) => res.json())
       .then((data) => setTransaction(data));
   }, []);
