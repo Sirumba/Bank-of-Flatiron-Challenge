@@ -1,8 +1,8 @@
 import React from "react";
-const GROUPS = ['Food', 'Income', 'Gift', 'Transportation', 'Housing']
+
 function AddTransactionForm() {
   return (
-    <div className="">
+    <>
       <form className="row">
         <div className="col-12">
           <input type="date" name="date" />
@@ -14,7 +14,14 @@ function AddTransactionForm() {
           Add Transaction
 </button>
       </form>
-    </div>
+    
+
+
+      
+
+
+
+      </>
   );
 }
 

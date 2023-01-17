@@ -7,6 +7,7 @@ function TransactionsList({ transaction, search }) {
   );
   // console.log(transaction)
   return (
+    <div class="card-group">
     <table className="table table-striped">
       <tbody>
         <tr>
@@ -34,6 +35,7 @@ function TransactionsList({ transaction, search }) {
         ))}
       </tbody>
     </table>
+    </div>
   );
 }
 
