@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AccountContainer from "./AccountContainer";
+import Search from "./Search";
 import "../index.css"
 function App() {
   const [transaction, setTransaction] = useState([]);
@@ -17,8 +18,19 @@ function App() {
 
   return (
     <div className="ui raised segment">
+      <ul className="nav nav-tabs">
+      <li className="nav-item dropdown">
+    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href={{setSearch}} role="button" aria-haspopup="true" aria-expanded="false">Search Transactions</a>
+    <div className="dropdown-menu">
+    <Search setSearch={setSearch} />
+    </div>
+    </li>
+      </ul>
      <div className="left-div">
       <h2 className="h1">Bank of Flatiron</h2>
+      <span>
+     
+      </span>
     </div>
       <AccountContainer 
         getTransactions={handleTransList} 
