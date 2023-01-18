@@ -22,7 +22,7 @@ This application allows for a user to fill the bank transactions and be able to 
 3. Move to the folder where you cloned the files and install requirements and make sure you are in the below directory:
 
 ```bash
-cd Galaxy-Films-/
+cd Bank-of-Flatiron-Challenge
 ```
 4. Open the folder in `VS Code` using the command 
 ```bash
