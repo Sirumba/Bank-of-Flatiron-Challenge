@@ -1,6 +1,5 @@
 # The Bank Of Flariton
-For this project, you’ll be building out a React application that displays a
-list of your recent bank transactions, among other features.
+This application allows for a user to fill the bank transactions and be able to search for the transactions that have been made in the Bank of Flatiron 
 # Development requirements
 - Visual studio code
 - Live server  extension
@@ -8,8 +7,8 @@ list of your recent bank transactions, among other features.
 - json-sever
 To get the code,
 ```bash
- click on this link: https://github.com/kericho/code-challenge-Bank-of-flatiron.git
- ```
+ click on this link: https://github.com/Sirumba/Bank-of-Flatiron-Challenge
+ 
 - fork and git clone the code to you local machine.
 - Navigate to this folder by running this command:
 ```bash
